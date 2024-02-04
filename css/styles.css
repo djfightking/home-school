@@ -1,0 +1,42 @@
+body {
+    background-color: gray;
+}
+
+#content {
+    background-color: lightgray;
+    padding: 20;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+#top {
+    padding-top: 10px;
+    margin: 20px;
+    padding-bottom: 10px;
+    background-color: lightblue;
+}
+
+/* Media queries for responsive design */
+@media only screen and (max-width: 600px) {
+    /* Styles for phones */
+    header, footer {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for tablets (like iPad) */
+    header, footer {
+        font-size: 16px;
+    }
+}
+
+/* Additional media queries can be added for larger screens if needed */
+
+button.home {
+    padding-left: 100px;
+    background-color: lightcyan;
+    border-style: none;
+    border-radius: 10px;
+    padding: 20px
+}
